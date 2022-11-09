@@ -1,0 +1,90 @@
+/*  importar fuente poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+/* utilizar fuente poppins*/
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  border: none;
+  outline: none;
+}
+
+/* fondo de pagina blanco*/
+body {
+  background-color: #ebf6fe;
+}
+
+/* Alineacion y color de cabezado*/
+h1 {
+
+  text-align: center;
+  color: black;
+}
+
+/* color del parrafo de texto en blanoc*/
+.counter p {
+  text-align: center;
+  font-size: 10rem;
+  font-weight: 300;
+  line-height: 1;
+}
+/* se agrega estilo al container por si se quisiera resaltar del resto d ela web*/
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* el contador color blanco*/
+.counter {
+  background-color: #ebf6fe;
+ 
+}
+
+/* estilos para todos los botones, iniciando con texto centrado */
+.counter .buttons {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* estilo a contador y botones de reset */
+.counter .buttons button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: #ebf6fe;
+  border: 2px solid black;
+}
+ /* estilo a contador y botones de dismunuir */
+.counter .buttons button#down {
+  background-color: #ebf6fe;
+  color: rgb(3, 3, 3);
+ 
+  border: 2px solid black;
+}
+
+/* estilo a contador y botones de incrementar */
+.counter .buttons button#up {
+  background-color: #ebf6fe;
+  color: rgb(3, 3, 3);
+
+  border: 2
+  px solid black;
+}
+
+/* estilos para cuando se pase el mouse sobre los botones */
+.counter .buttons button#down:hover{
+  border: 1px solid #1a7ae0;
+  }
+
+.counter .buttons button#up:hover{
+  border: 1px solid #1a7ae0;
+}
+
+.counter .buttons button:hover{
+  border: 1px solid #1a7ae0;
+}
